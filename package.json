@@ -1,0 +1,24 @@
+{
+  "name": "marketus-marshal-invoice-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "html2canvas": "1.4.1",
+    "jspdf": "4.2.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "vite": "7.3.6"
+  },
+  "overrides": {
+    "rollup": "4.63.6",
+    "nanoid": "3.3.19"
+  }
+}
